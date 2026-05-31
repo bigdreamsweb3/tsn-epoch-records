@@ -1,0 +1,54 @@
+{
+  "epoch_number": 2,
+  "closed_at": "2026-05-31T16:17:51.314384+00:00",
+  "summary": {
+    "intent_count": 2,
+    "claim_count": 0,
+    "proof_count": 0
+  },
+  "intents": [
+    {
+      "paymentId": "9efef650-9d05-4956-b3ee-243acbace2bd",
+      "intentSeedHash": "44264e62411a20896a0567612ca0e5735f5a0e425c1dc9a77dc047b816ca478a",
+      "recipientHash": "d9950bacd53ef6203a4da1f39640cd9956945f8c10b58db136d6b332643925d9",
+      "tokenMintAddress": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
+      "amount": 1.003152,
+      "recipientAmount": 1.0,
+      "underlyingPayment": "GRx2SwHBhqpBWc8NtQBSJHDcZAh6EioEjtxBdtufY4i6",
+      "source": "trustlink-pay-frontend",
+      "id": "9efef650-9d05-4956-b3ee-243acbace2bd",
+      "status": "onchain",
+      "assignedCrankerPubkey": "FnTrWDNgsXedkoCxpgKvwmEF3By4G6wzu9oyoU1n9xUG",
+      "claimTxSig": "4enaGpDqYgGsjRq1ZXEbWxC39eqBecpKQWQ752KRZGyn69xqcvqCtSH7skL6nCsv4ipMP8Wp8bHhYREjLjpNZoDf",
+      "proofTxSig": null,
+      "settlementResolution": null,
+      "settlementReason": "Cranker submitted the payment intent on chain and earned one claim credit.",
+      "postedAt": "2026-05-30T18:53:36.054940+00:00",
+      "updatedAt": "2026-05-31T09:57:02.968063+00:00"
+    },
+    {
+      "paymentId": "534599e7-b8f0-4ed4-8654-43f2ca2d707a",
+      "intentSeedHash": "91b582f281ce8fce6241f29023493135d33fbdbe8cc423681b39c4da5610be67",
+      "recipientHash": "d9950bacd53ef6203a4da1f39640cd9956945f8c10b58db136d6b332643925d9",
+      "tokenMintAddress": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
+      "amount": 2.003152,
+      "recipientAmount": 2.0,
+      "underlyingPayment": "BZpxQ2EmKYek3W6ELEefn4MwD71krc3uyLST5nVFhYQf",
+      "escrowVaultAddress": "4pP1ycaqRh2M2K4dQVqzkF6GxpBWMySN4R21R22L1Gj8",
+      "senderLockTransactionBase64": "AvSOOshqagO3h9NPxvJsECYcY5SDqYKQEutwOc04YR8LHSmK4V5iaEG+3deqoo8d5VcytBdoFGjHkritv2S2cAwEASEjm5e+8O9HUQIxZF5SOCsC1AeWomB9SpOajZDaVwy5hXx4CIvU/yUIZ/jkLv84zOcTd8b0v4Rek0my6wsMAgAGCuVDddE5d2AJa+lLgzQVCe9QWpNaYjoWsPXLo5BfLbUzOLZA2SuGWN+CK/XnEAw+CrzUA2YEmHbIwL1ElJ9+QLdoaE3M2VJ7Hq7l2rquroFxaU/UifBz8ukXLtxUdzEv+Jz9rZ03d8xAA7dahimkxXtOWpmjd2r/CvKT110F+FqYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAk9yKyXAJ0nkcJK9h6/LTLl694++7eaZAu8UVfdVkbDTtELLORIVfxOpM9ATQoLQMrX/7NAaLb8bd5BgjfAC6nBqfVFxksXFEhjMlMPUrxf1ja7gibof1E49vZigAAAAAG3fbh12Whk9nL4UbO63msHLSF7V9bN5E6jPWFfv8AqQbFx1iSbcNhR20gjeCoFFNxN9naHJbBvIdoVnymB8ZK6hbtolHkb5zHSTVIYHPWrQ0Ybns6wo38XBIHoSnHvWIBCQoAAAIGAwUBCAQHwAFymwid3bsq1tmVC6zVPvYgOk2h85ZAzZlWlF+MELWNsTbWszJkOSXZ5UN10Tl3YAlr6UuDNBUJ71Bak1piOhaw9cujkF8ttTNRT9s1hwEnAP5OJWoAAAAA+k6yZxb5KKJJgBdZo6djHVaJSwyBQXZu44wi/QRN1r0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0JAeAAAAAAA=",
+      "senderLockTransactionExpiresAt": "2026-05-31T11:00:25.125Z",
+      "source": "trustlink-pay-frontend",
+      "id": "534599e7-b8f0-4ed4-8654-43f2ca2d707a",
+      "status": "onchain",
+      "assignedCrankerPubkey": "FnTrWDNgsXedkoCxpgKvwmEF3By4G6wzu9oyoU1n9xUG",
+      "claimTxSig": "5eRH9GPZUtt1XnN3iPdjZstHt7PYuZSuDoyxQ685FjJEmpH4f7YFGx9xMbb3VwT519oJ3TKop9KsDb8qVKVggF3D",
+      "proofTxSig": null,
+      "settlementResolution": null,
+      "settlementReason": "Cranker submitted the payment intent on chain and earned one claim credit.",
+      "postedAt": "2026-05-31T10:59:48.189201+00:00",
+      "updatedAt": "2026-05-31T10:59:59.875395+00:00"
+    }
+  ],
+  "claim_requests": [],
+  "proofs": []
+}
