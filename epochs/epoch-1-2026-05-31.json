@@ -1,0 +1,32 @@
+{
+  "epoch_number": 1,
+  "closed_at": "2026-05-31T09:12:39.283132+00:00",
+  "summary": {
+    "intent_count": 1,
+    "claim_count": 0,
+    "proof_count": 0
+  },
+  "intents": [
+    {
+      "paymentId": "9efef650-9d05-4956-b3ee-243acbace2bd",
+      "intentSeedHash": "44264e62411a20896a0567612ca0e5735f5a0e425c1dc9a77dc047b816ca478a",
+      "recipientHash": "d9950bacd53ef6203a4da1f39640cd9956945f8c10b58db136d6b332643925d9",
+      "tokenMintAddress": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
+      "amount": 1.003152,
+      "recipientAmount": 1.0,
+      "underlyingPayment": "GRx2SwHBhqpBWc8NtQBSJHDcZAh6EioEjtxBdtufY4i6",
+      "source": "trustlink-pay-frontend",
+      "id": "9efef650-9d05-4956-b3ee-243acbace2bd",
+      "status": "pending",
+      "assignedCrankerPubkey": null,
+      "claimTxSig": null,
+      "proofTxSig": null,
+      "settlementResolution": null,
+      "settlementReason": null,
+      "postedAt": "2026-05-30T18:53:36.054940+00:00",
+      "updatedAt": "2026-05-30T18:53:36.054940+00:00"
+    }
+  ],
+  "claim_requests": [],
+  "proofs": []
+}
