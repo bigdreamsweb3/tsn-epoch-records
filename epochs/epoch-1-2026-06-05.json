@@ -1,0 +1,123 @@
+{
+  "epoch_number": 1,
+  "closed_at": "2026-06-05T10:42:46.468999+00:00",
+  "summary": {
+    "intent_count": 2,
+    "claim_count": 2,
+    "proof_count": 2
+  },
+  "intents": [
+    {
+      "paymentId": "413fc2b7-1ba1-405a-9361-ba48a98ce69c",
+      "intentSeedHash": "86eedb28cde6e54d29b1bd708b85633ce3043d357d96c9bd08e7c53ba843731a",
+      "recipientHash": "d9950bacd53ef6203a4da1f39640cd9956945f8c10b58db136d6b332643925d9",
+      "tokenMintAddress": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
+      "amount": 2.0,
+      "recipientAmount": 2.0,
+      "underlyingPayment": "GRx2SwHBhqpBWc8NtQBSJHDcZAh6EioEjtxBdtufY4i6",
+      "senderWallet": "GRx2SwHBhqpBWc8NtQBSJHDcZAh6EioEjtxBdtufY4i6",
+      "senderAuthorizationMessage": "Transfer Settlement Network Payment Authorization\nversion=1\nsenderWallet=GRx2SwHBhqpBWc8NtQBSJHDcZAh6EioEjtxBdtufY4i6\nsenderIdentity=phone:+2349037334349\nreceiverIdentity=tin:1000000008|phone:+2349037334349|name:Big Dreams Web3\ntokenMintAddress=4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU\namount=2\nsenderFeeAmount=0.003152\ntotalTokenRequiredUi=2.003152\nnonce=eddcfe5f52f851243f7b044e1ccc6280\nissuedAt=2026-06-04T15:48:58.853Z\nexpiresAt=2026-06-04T15:53:58.853Z",
+      "senderAuthorizationSignature": "XMZD3dB+56N9Qj8NFo9sQbKc4gfKlfSF+aWr7ne9CsgD7qTNtHi0FXLzPAAZ0I/eVvsYardfiiu0T6kkFiFCDA==",
+      "senderAuthorizationNonce": "eddcfe5f52f851243f7b044e1ccc6280",
+      "senderAuthorizationIssuedAt": "2026-06-04T15:48:58.853Z",
+      "senderAuthorizationExpiresAt": "2026-06-04T15:53:58.853Z",
+      "senderFeeAmount": 0.003152,
+      "senderSignedSettlementTransaction": "AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABXjrUHLR0IN5KHBRKjfNxSa7iWxBthdNOPDeSfSI95Bq0WhND3+aMv0uSOPM/9gOzwBuL4M0VmImrMFkfBIowCAgEGDdupHeKokvhydFMDGEUBc5EgXKcXQjiqe5geaMndOjW55UN10Tl3YAlr6UuDNBUJ71Bak1piOhaw9cujkF8ttTM1S0XDkWvCZi91x/e+KUUI4TF/Zcq2U7Nbd+8ekilA9zZglwoGHBQsr4CoQM+DMMNMrjbL+mMvQn5a5AATNL5jRVLbyphZvG1XRW7Is5R+RWKIzPaJxkrHAECL6/VCDo1oaE3M2VJ7Hq7l2rquroFxaU/UifBz8ukXLtxUdzEv+NaTPBIIs+hI/tteQEczwy3c1Pt9ZssZjFrPf1nH96ozAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA7RCyzkSFX8TqTPQE0KC0DK1/+zQGi2/G3eQYI3wAup4yXJY9OJInxuz0QKRSODYMLWhOZ2v8QhASOe9jb6fhZAwZGb+UhFzL/7K26csOb57yM5bvF9xJrLEObOkAAAAAG3fbh12Whk9nL4UbO63msHLSF7V9bN5E6jPWFfv8AqQbFx1iSbcNhR20gjeCoFFNxN9naHJbBvIdoVnymB8ZKf78HBGtLkT5j/zUd/ZexWporvfVM29+UdAQcM3nqPFAFCgAJA9i4BQAAAAAACgAFAkANAwAMCAADBAYIBwsJGH1E1GyqpRenhu7bKM3m5U2AhB4AAAAAAAsEBQgGAQoMgIQeAAAAAAAGCwQFCAIBCgxQDAAAAAAAAAY=",
+      "senderSignedSettlementFeePayer": "FnTrWDNgsXedkoCxpgKvwmEF3By4G6wzu9oyoU1n9xUG",
+      "senderSettlementMode": "sponsored_sender_cosigned",
+      "senderTokenAccount": "82ZeZ6R5UZf7uhXQU3ykWr41BW3ijayET2tiPZkUSk31",
+      "settlementVault": "5fcQssxEEdqefRo7MYhim2oX6vAYPsdwKzo7WhBQgsw2",
+      "settlementTokenAccount": "FScTpVDDtcmJsrWhsvZdJpf4j1aW7jaUoZj1eJyk3QdG",
+      "settlementPaymentIntentId": "5613146279415377542",
+      "source": "trustlink-pay-frontend",
+      "id": "413fc2b7-1ba1-405a-9361-ba48a98ce69c",
+      "status": "executed",
+      "assignedCrankerPubkey": "FnTrWDNgsXedkoCxpgKvwmEF3By4G6wzu9oyoU1n9xUG",
+      "escrowTxSig": "258PdAbaHvJWQ2VkPnoRj5DuMPU5hhDE7zJfTCGADGwh1Aa4WjpZrGeWnSMq8Y59xu1mmMs99uJ2skksTj8grkzZ",
+      "claimTxSig": null,
+      "proofTxSig": "2MAf9451LYqnA5fNY4P2XV1dUUMMmd2zSRofRWww4jTobMTkTk2tredrFxDHZDMdNrFbCLF9Gx2RCfdrgaGSSbWT",
+      "settlementResolution": "completed",
+      "settlementReason": "Transfer appears economically settleable under current network conditions.",
+      "postedAt": "2026-06-04T15:49:52.561287+00:00",
+      "updatedAt": "2026-06-04T15:49:59.262915+00:00"
+    },
+    {
+      "paymentId": "db9da756-a9e8-4bbe-802d-9ac903f849e8",
+      "intentSeedHash": "daf67d28aff1ae26ae7e996e70de50ca1c072438b16be3d0d5f98409840fa593",
+      "recipientHash": "d9950bacd53ef6203a4da1f39640cd9956945f8c10b58db136d6b332643925d9",
+      "tokenMintAddress": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
+      "amount": 1.0,
+      "recipientAmount": 1.0,
+      "underlyingPayment": "GRx2SwHBhqpBWc8NtQBSJHDcZAh6EioEjtxBdtufY4i6",
+      "senderWallet": "GRx2SwHBhqpBWc8NtQBSJHDcZAh6EioEjtxBdtufY4i6",
+      "senderAuthorizationMessage": "Transfer Settlement Network Payment Authorization\nversion=1\nsenderWallet=GRx2SwHBhqpBWc8NtQBSJHDcZAh6EioEjtxBdtufY4i6\nsenderIdentity=phone:+2349037334349\nreceiverIdentity=tin:1000000008|phone:+2349037334349|name:Big Dreams Web3\ntokenMintAddress=4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU\namount=1\nsenderFeeAmount=0.003152\ntotalTokenRequiredUi=1.003152\nnonce=0eed1951f983fdc188125f1f275bdaa7\nissuedAt=2026-06-04T16:12:21.026Z\nexpiresAt=2026-06-04T16:17:21.026Z",
+      "senderAuthorizationSignature": "VmCFlRG4NhzRp1yt+O3H6hU4fjIRJFZLIAbGAhdkQ2yPL3MtZAH1vZ376C2xUgqCna6YDsCS+97v+BV6rePmBQ==",
+      "senderAuthorizationNonce": "0eed1951f983fdc188125f1f275bdaa7",
+      "senderAuthorizationIssuedAt": "2026-06-04T16:12:21.026Z",
+      "senderAuthorizationExpiresAt": "2026-06-04T16:17:21.026Z",
+      "senderFeeAmount": 0.003152,
+      "senderSignedSettlementTransaction": "AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACR6euH/KkvKj14gtvVLF8SP7Oz+AVlYFoI+Wfcr7cC5TGSU2CgrEjcyy1HfwnhmUT4qQ7tUc5LTOGIRkGlRDAFAgEGDdupHeKokvhydFMDGEUBc5EgXKcXQjiqe5geaMndOjW55UN10Tl3YAlr6UuDNBUJ71Bak1piOhaw9cujkF8ttTM1S0XDkWvCZi91x/e+KUUI4TF/Zcq2U7Nbd+8ekilA9zZglwoGHBQsr4CoQM+DMMNMrjbL+mMvQn5a5AATNL5jaGhNzNlSex6u5dq6rq6BcWlP1Inwc/LpFy7cVHcxL/irp/hjEQlqruReilFXDoA7lLS3Q3RF0nn6rJxvjikjKgUFCXBTxeJCtw0mg/9Cpgj7J/OYK8VMrnSiXOyTSeGZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA7RCyzkSFX8TqTPQE0KC0DK1/+zQGi2/G3eQYI3wAup4yXJY9OJInxuz0QKRSODYMLWhOZ2v8QhASOe9jb6fhZAwZGb+UhFzL/7K26csOb57yM5bvF9xJrLEObOkAAAAAG3fbh12Whk9nL4UbO63msHLSF7V9bN5E6jPWFfv8AqQbFx1iSbcNhR20gjeCoFFNxN9naHJbBvIdoVnymB8ZKpbiD35o4Jv210U3NesSAZPQkWDMiQE8tb7qTI2yUZsoFCgAJA9i4BQAAAAAACgAFAkANAwAMCAADBQYIBwsJGH1E1GyqpRen2vZ9KK/xriZAQg8AAAAAAAsEBAgGAQoMQEIPAAAAAAAGCwQECAIBCgxQDAAAAAAAAAY=",
+      "senderSignedSettlementFeePayer": "FnTrWDNgsXedkoCxpgKvwmEF3By4G6wzu9oyoU1n9xUG",
+      "senderSettlementMode": "sponsored_sender_cosigned",
+      "senderTokenAccount": "82ZeZ6R5UZf7uhXQU3ykWr41BW3ijayET2tiPZkUSk31",
+      "settlementVault": "CZ5GfWXDvj9Zr6ytWtqWoJnj77jHKmnUD6r9j9S1eSQ9",
+      "settlementTokenAccount": "LbVbs6Kb5uJgJo3JKxwSg5t5sQT63VW59vdhTUyfFbW",
+      "settlementPaymentIntentId": "2787430953989830362",
+      "source": "trustlink-pay-frontend",
+      "id": "db9da756-a9e8-4bbe-802d-9ac903f849e8",
+      "status": "executed",
+      "assignedCrankerPubkey": "FnTrWDNgsXedkoCxpgKvwmEF3By4G6wzu9oyoU1n9xUG",
+      "escrowTxSig": "54gaEYweAMAAUT5ZJCqPwP5QSNfA7WPMKygD7YWqLG8Qmg7Xd78QiCLpaYAfUTvzZgDbuDPoLbLimGuXpthKcAz2",
+      "claimTxSig": null,
+      "proofTxSig": "2i2rDdfmJft79T3VbpWd7wUxQEyUTi8cbaq2zxMgAkqLaFez9uE5PZWYkDDBy96mG2zFyFVH57DstoGQJrpjJXVD",
+      "settlementResolution": "completed",
+      "settlementReason": "Transfer appears economically settleable under current network conditions.",
+      "postedAt": "2026-06-04T16:13:09.217358+00:00",
+      "updatedAt": "2026-06-04T16:13:13.108020+00:00"
+    }
+  ],
+  "claim_requests": [
+    {
+      "paymentId": "413fc2b7-1ba1-405a-9361-ba48a98ce69c",
+      "intentId": "413fc2b7-1ba1-405a-9361-ba48a98ce69c",
+      "recipientHash": "d9950bacd53ef6203a4da1f39640cd9956945f8c10b58db136d6b332643925d9",
+      "destinationWallet": "GRx2SwHBhqpBWc8NtQBSJHDcZAh6EioEjtxBdtufY4i6",
+      "autoclaim": true,
+      "source": "trustlink-pay-frontend",
+      "id": "a3382270-992c-4b8d-8a63-cca9204a1d4e",
+      "status": "completed",
+      "settlementReason": "Transfer appears economically settleable under current network conditions.",
+      "postedAt": "2026-06-04T15:49:54.740676+00:00",
+      "updatedAt": "2026-06-04T15:49:59.420681+00:00"
+    },
+    {
+      "paymentId": "db9da756-a9e8-4bbe-802d-9ac903f849e8",
+      "intentId": "db9da756-a9e8-4bbe-802d-9ac903f849e8",
+      "recipientHash": "d9950bacd53ef6203a4da1f39640cd9956945f8c10b58db136d6b332643925d9",
+      "destinationWallet": "GRx2SwHBhqpBWc8NtQBSJHDcZAh6EioEjtxBdtufY4i6",
+      "autoclaim": true,
+      "source": "trustlink-pay-frontend",
+      "id": "f1fbcf05-fb4d-4401-91c1-35ba9d886c79",
+      "status": "completed",
+      "settlementReason": "Transfer appears economically settleable under current network conditions.",
+      "postedAt": "2026-06-04T16:13:09.378692+00:00",
+      "updatedAt": "2026-06-04T16:13:13.140804+00:00"
+    }
+  ],
+  "proofs": [
+    {
+      "intent_id": "413fc2b7-1ba1-405a-9361-ba48a98ce69c",
+      "timestamp": "2026-06-04T15:49:59.041Z",
+      "cranker_pubkey": "FnTrWDNgsXedkoCxpgKvwmEF3By4G6wzu9oyoU1n9xUG",
+      "proof_tx": "2MAf9451LYqnA5fNY4P2XV1dUUMMmd2zSRofRWww4jTobMTkTk2tredrFxDHZDMdNrFbCLF9Gx2RCfdrgaGSSbWT",
+      "encrypted_payload": null
+    },
+    {
+      "intent_id": "db9da756-a9e8-4bbe-802d-9ac903f849e8",
+      "timestamp": "2026-06-04T16:13:12.982Z",
+      "cranker_pubkey": "FnTrWDNgsXedkoCxpgKvwmEF3By4G6wzu9oyoU1n9xUG",
+      "proof_tx": "2i2rDdfmJft79T3VbpWd7wUxQEyUTi8cbaq2zxMgAkqLaFez9uE5PZWYkDDBy96mG2zFyFVH57DstoGQJrpjJXVD",
+      "encrypted_payload": null
+    }
+  ]
+}
