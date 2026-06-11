@@ -1,0 +1,14 @@
+{
+  "epoch_number": 3,
+  "closed_at": "2026-06-11T14:26:24.189146+00:00",
+  "summary": {
+    "intent_count": 0,
+    "claim_count": 0,
+    "proof_count": 0,
+    "recovery_count": 0
+  },
+  "intents": [],
+  "claim_requests": [],
+  "proofs": [],
+  "recoveries": []
+}
