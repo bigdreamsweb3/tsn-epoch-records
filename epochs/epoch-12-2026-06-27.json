@@ -1,0 +1,27 @@
+{
+  "epoch_number": 12,
+  "closed_at": "2026-06-27T14:01:24.157943+00:00",
+  "privacy_model": "aggregate-only-v2",
+  "summary": {
+    "intent_count": 11,
+    "claim_count": 1,
+    "proof_count": 0,
+    "recovery_count": 15
+  },
+  "intent_statuses": {
+    "executed": 10,
+    "expired": 1
+  },
+  "claim_statuses": {
+    "pending": 1
+  },
+  "recovery_statuses": {
+    "failed": 15
+  },
+  "token_totals": {
+    "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU": {
+      "intent_count": 11,
+      "total_amount": 28.5
+    }
+  }
+}
