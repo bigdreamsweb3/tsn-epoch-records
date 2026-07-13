@@ -1,0 +1,15 @@
+{
+  "epoch_number": 2,
+  "closed_at": "2026-07-13T10:17:56.613822+00:00",
+  "privacy_model": "aggregate-only-v2",
+  "summary": {
+    "intent_count": 0,
+    "claim_count": 0,
+    "proof_count": 0,
+    "recovery_count": 0
+  },
+  "intent_statuses": {},
+  "claim_statuses": {},
+  "recovery_statuses": {},
+  "token_totals": {}
+}
