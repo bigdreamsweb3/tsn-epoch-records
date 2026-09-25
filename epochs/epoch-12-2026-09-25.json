@@ -1,0 +1,11 @@
+{
+  "epoch_number": 12,
+  "closed_at": "2026-09-25T19:58:18.362193+00:00",
+  "privacy_model": "epoch-treasury-opaque-slot-v1",
+  "summary": {
+    "intent_count": 0,
+    "settled_count": 0
+  },
+  "intent_statuses": {},
+  "token_totals": {}
+}
